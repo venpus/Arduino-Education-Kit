@@ -2795,6 +2795,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="40.64" y1="30.48" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
 <label x="48.26" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D13"/>
+<wire x1="101.6" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+<label x="104.14" y="27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AREF" class="0">
 <segment>
@@ -2808,18 +2813,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="101.6" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="T_L_JP4" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="T_L_JP4" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="20.32" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="B_L_JP2" gate="G$1" pin="5"/>
@@ -2830,24 +2823,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$1" gate="G$1" pin="3.3V"/>
 <wire x1="101.6" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
 <label x="104.14" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IOREF" class="0">
-<segment>
-<pinref part="B_L_JP2" gate="G$1" pin="7"/>
-<wire x1="134.62" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="B_L_JP2" gate="G$1" pin="8"/>
-<wire x1="134.62" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="RST1"/>
-<wire x1="68.58" y1="58.42" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D8" class="0">
@@ -2914,24 +2889,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="B_L_JP2" gate="G$1" pin="4"/>
 <wire x1="134.62" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
 <label x="127" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A7"/>
-<wire x1="101.6" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A6"/>
-<wire x1="101.6" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$50" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="D13"/>
-<wire x1="101.6" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -3108,9 +3065,6 @@ RGB 4 pin, Normal 2 Pin</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="106,1,134.62,22.86,N$23,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -530,39 +530,32 @@ design rules under a new name.</description>
 <signal name="GND">
 <contactref element="U$2" pad="4"/>
 <contactref element="U$1" pad="GND1"/>
+<contactref element="JP2" pad="2"/>
+<contactref element="JP2" pad="3"/>
 <wire x1="31.75" y1="34.29" x2="26.416" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="2.54" x2="31.75" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="2.54" x2="33.02" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D13">
 <contactref element="U$2" pad="5"/>
 </signal>
-<signal name="N$13">
+<signal name="AREF">
 <contactref element="U$2" pad="3"/>
+<contactref element="U$1" pad="AREF"/>
+<wire x1="8.89" y1="19.05" x2="23.876" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$14">
+<signal name="SDA">
 <contactref element="U$2" pad="2"/>
 </signal>
-<signal name="N$15">
+<signal name="SCL">
 <contactref element="U$2" pad="1"/>
 </signal>
-<signal name="N$16">
-<contactref element="JP2" pad="1"/>
-</signal>
-<signal name="N$17">
-<contactref element="JP2" pad="2"/>
-</signal>
-<signal name="N$18">
-<contactref element="JP2" pad="3"/>
-</signal>
-<signal name="N$19">
-<contactref element="JP2" pad="4"/>
-</signal>
-<signal name="N$20">
+<signal name="3.3V">
 <contactref element="JP2" pad="5"/>
+<contactref element="U$1" pad="3.3V"/>
+<wire x1="6.35" y1="19.05" x2="38.1" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$21">
-<contactref element="JP2" pad="6"/>
-</signal>
-<signal name="N$22">
+<signal name="IOREF">
 <contactref element="JP2" pad="7"/>
 </signal>
 <signal name="N$23">
@@ -581,29 +574,29 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="6"/>
 <wire x1="3.81" y1="34.29" x2="31.496" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$36">
+<signal name="VIN">
 <contactref element="U$1" pad="RAW"/>
+<contactref element="JP2" pad="1"/>
+<wire x1="27.94" y1="2.54" x2="39.37" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="U$1" pad="GND"/>
 </signal>
-<signal name="N$38">
+<signal name="RST">
 <contactref element="U$1" pad="RST"/>
+<contactref element="JP2" pad="6"/>
+<wire x1="40.64" y1="2.54" x2="34.29" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$39">
+<signal name="5V">
 <contactref element="U$1" pad="5V"/>
+<contactref element="JP2" pad="4"/>
+<wire x1="35.56" y1="2.54" x2="31.75" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$40">
 <contactref element="U$1" pad="A7"/>
 </signal>
 <signal name="N$41">
 <contactref element="U$1" pad="A6"/>
-</signal>
-<signal name="N$48">
-<contactref element="U$1" pad="AREF"/>
-</signal>
-<signal name="N$49">
-<contactref element="U$1" pad="3.3V"/>
 </signal>
 <signal name="N$50">
 <contactref element="U$1" pad="D13"/>
