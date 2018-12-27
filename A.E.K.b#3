@@ -498,8 +498,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$1" library="Arduino-clone" package="NANO" value="NANO" x="29.21" y="20.32" smashed="yes" rot="R90"/>
 <element name="T_L_JP4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X10-BIG" package3d_urn="urn:adsk.eagle:package:6240656/1" value="PINHD-1X10" x="30.226" y="50.8" smashed="yes">
-<attribute name="NAME" x="18.7198" y="52.6288" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="18.796" y="47.625" size="1.27" layer="27"/>
+<attribute name="NAME" x="17.4498" y="47.5488" size="1.27" layer="25" ratio="10"/>
 </element>
 </elements>
 <signals>

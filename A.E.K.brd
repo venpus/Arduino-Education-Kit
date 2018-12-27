@@ -152,6 +152,13 @@
 <wire x1="68.58" y1="1.27" x2="67.31" y2="0" width="0.1524" layer="20"/>
 <wire x1="67.31" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="53.34" width="0.1524" layer="20"/>
+<dimension x1="-2.54" y1="0" x2="-2.54" y2="53.34" x3="-1.27" y3="26.67" textsize="1.778" layer="1" unit="mil"/>
+<dimension x1="0" y1="-1.27" x2="68.58" y2="-1.27" x3="34.29" y3="-3.81" textsize="1.778" layer="1" unit="mil"/>
+<dimension x1="71.12" y1="2.54" x2="71.12" y2="0" x3="73.66" y3="1.27" textsize="1.778" layer="1" unit="mil"/>
+<dimension x1="69.85" y1="50.8" x2="69.85" y2="53.34" x3="71.12" y3="52.07" textsize="1.778" layer="1" unit="mil"/>
+<dimension x1="0" y1="54.61" x2="45.72" y2="54.61" x3="22.86" y3="54.61" textsize="1.778" layer="1" unit="mil"/>
+<dimension x1="0" y1="-1.27" x2="27.94" y2="-1.27" x3="13.97" y3="-1.27" textsize="1.778" layer="1" unit="mil"/>
+<dimension x1="-3.81" y1="10.16" x2="-3.81" y2="0" x3="-3.81" y3="5.08" textsize="1.778" layer="1" unit="mil"/>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
